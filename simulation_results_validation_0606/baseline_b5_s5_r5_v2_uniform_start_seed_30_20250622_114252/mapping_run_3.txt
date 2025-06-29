@@ -1,0 +1,325 @@
+Run 3 Mapping and Agent Parameters
+
+Builder → Relay Mapping:
+Builder 0 → Relays [4, 3, 0, 5]
+Builder 1 → Relays [0, 1, 2, 7]
+Builder 2 → Relays [1, 2, 0, 8]
+Builder 3 → Relays [4, 2, 3, 6]
+Builder 4 → Relays [3, 1, 0, 8]
+Builder 5 → Relays [3, 2, 1, 7]
+Builder 6 → Relays [4, 3, 2, 7]
+Builder 7 → Relays [2, 0, 1, 9]
+Builder 8 → Relays [1, 4, 0, 9]
+Builder 9 → Relays [3, 4, 1, 6]
+Builder 10 → Relays [5, 1, 8, 6]
+Builder 11 → Relays [1, 7, 9, 6]
+Builder 12 → Relays [8, 3, 9, 5]
+Builder 13 → Relays [2, 8, 9, 5]
+Builder 14 → Relays [4, 9, 5, 7]
+Builder 15 → Relays [7, 4, 9, 8]
+Builder 16 → Relays [6, 4, 5, 9]
+Builder 17 → Relays [9, 2, 5, 8]
+Builder 18 → Relays [1, 8, 7, 9]
+Builder 19 → Relays [3, 7, 6, 8]
+
+Relay → Builder Mapping:
+Relay 0 → Builders [0, 1, 2, 4, 7, 8]
+Relay 1 → Builders [1, 2, 4, 5, 7, 8, 9, 10, 11, 18]
+Relay 2 → Builders [1, 2, 3, 5, 6, 7, 13, 17]
+Relay 3 → Builders [0, 3, 4, 5, 6, 9, 12, 19]
+Relay 4 → Builders [0, 3, 6, 8, 9, 14, 15, 16]
+Relay 5 → Builders [0, 10, 12, 13, 14, 16, 17]
+Relay 6 → Builders [3, 9, 10, 11, 16, 19]
+Relay 7 → Builders [1, 5, 6, 11, 14, 15, 18, 19]
+Relay 8 → Builders [2, 4, 10, 12, 13, 15, 17, 18, 19]
+Relay 9 → Builders [7, 8, 11, 12, 13, 14, 15, 16, 17, 18]
+
+Validator → Relay Mapping:
+Validator 0 → Relays [1, 2, 3, 4]
+Validator 1 → Relays [0, 4, 2, 1]
+Validator 2 → Relays [3, 5, 8, 7]
+Validator 3 → Relays [7, 2, 6, 8]
+Validator 4 → Relays [1, 6, 5, 7]
+Validator 5 → Relays [6, 8, 9, 3]
+Validator 6 → Relays [2, 9, 6, 8]
+Validator 7 → Relays [5, 1, 7, 8]
+Validator 8 → Relays [1, 6, 9, 8]
+Validator 9 → Relays [0, 8, 5, 7]
+
+Relay → Validator Mapping:
+Relay 0 → Validators [1, 9]
+Relay 1 → Validators [0, 1, 4, 7, 8]
+Relay 2 → Validators [0, 1, 3, 6]
+Relay 3 → Validators [0, 2, 5]
+Relay 4 → Validators [0, 1]
+Relay 5 → Validators [2, 4, 7, 9]
+Relay 6 → Validators [3, 4, 5, 6, 8]
+Relay 7 → Validators [2, 3, 4, 7, 9]
+Relay 8 → Validators [2, 3, 5, 6, 7, 8, 9]
+Relay 9 → Validators [5, 6, 8]
+
+Builders' Parameters:
+Builder 0:
+  - is_censoring: True
+  - builder_policy: strict
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 1:
+  - is_censoring: True
+  - builder_policy: strict
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 2:
+  - is_censoring: True
+  - builder_policy: strict
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 3:
+  - is_censoring: True
+  - builder_policy: strict
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 4:
+  - is_censoring: True
+  - builder_policy: strict
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 5:
+  - is_censoring: True
+  - builder_policy: weak
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 6:
+  - is_censoring: True
+  - builder_policy: weak
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 7:
+  - is_censoring: True
+  - builder_policy: weak
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 8:
+  - is_censoring: True
+  - builder_policy: weak
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 9:
+  - is_censoring: True
+  - builder_policy: weak
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 10:
+  - is_censoring: False
+  - builder_policy: non
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 11:
+  - is_censoring: False
+  - builder_policy: non
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 12:
+  - is_censoring: False
+  - builder_policy: non
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 13:
+  - is_censoring: False
+  - builder_policy: non
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 14:
+  - is_censoring: False
+  - builder_policy: non
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 15:
+  - is_censoring: False
+  - builder_policy: non
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 16:
+  - is_censoring: False
+  - builder_policy: non
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 17:
+  - is_censoring: False
+  - builder_policy: non
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 18:
+  - is_censoring: False
+  - builder_policy: non
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+Builder 19:
+  - is_censoring: False
+  - builder_policy: non
+  - type_1_rejection_prob_builder: 1.0
+  - weak_detection_prob: 1.0
+  - base_block_build_time: 4.0
+  - builder_review_time_per_tx: 0.00315
+  - skip_probability: 0.1
+  - proposer_reward_ratio: 0.95
+
+Relays' Parameters:
+Relay 0:
+  - is_censoring: True
+  - relay_policy: censoring
+  - type_1_rejection_prob_relay: 1.0
+  - base_relay_process_time: 1.0
+  - relay_review_time_per_tx: 0.00315
+Relay 1:
+  - is_censoring: True
+  - relay_policy: censoring
+  - type_1_rejection_prob_relay: 1.0
+  - base_relay_process_time: 1.0
+  - relay_review_time_per_tx: 0.00315
+Relay 2:
+  - is_censoring: True
+  - relay_policy: censoring
+  - type_1_rejection_prob_relay: 1.0
+  - base_relay_process_time: 1.0
+  - relay_review_time_per_tx: 0.00315
+Relay 3:
+  - is_censoring: True
+  - relay_policy: censoring
+  - type_1_rejection_prob_relay: 1.0
+  - base_relay_process_time: 1.0
+  - relay_review_time_per_tx: 0.00315
+Relay 4:
+  - is_censoring: True
+  - relay_policy: censoring
+  - type_1_rejection_prob_relay: 1.0
+  - base_relay_process_time: 1.0
+  - relay_review_time_per_tx: 0.00315
+Relay 5:
+  - is_censoring: False
+  - relay_policy: non
+  - type_1_rejection_prob_relay: 1.0
+  - base_relay_process_time: 1.0
+  - relay_review_time_per_tx: 0.00315
+Relay 6:
+  - is_censoring: False
+  - relay_policy: non
+  - type_1_rejection_prob_relay: 1.0
+  - base_relay_process_time: 1.0
+  - relay_review_time_per_tx: 0.00315
+Relay 7:
+  - is_censoring: False
+  - relay_policy: non
+  - type_1_rejection_prob_relay: 1.0
+  - base_relay_process_time: 1.0
+  - relay_review_time_per_tx: 0.00315
+Relay 8:
+  - is_censoring: False
+  - relay_policy: non
+  - type_1_rejection_prob_relay: 1.0
+  - base_relay_process_time: 1.0
+  - relay_review_time_per_tx: 0.00315
+Relay 9:
+  - is_censoring: False
+  - relay_policy: non
+  - type_1_rejection_prob_relay: 1.0
+  - base_relay_process_time: 1.0
+  - relay_review_time_per_tx: 0.00315
+
+Validators' Parameters:
+Validator 0:
+  - is_censoring: True
+Validator 1:
+  - is_censoring: True
+Validator 2:
+  - is_censoring: False
+Validator 3:
+  - is_censoring: False
+Validator 4:
+  - is_censoring: False
+Validator 5:
+  - is_censoring: False
+Validator 6:
+  - is_censoring: False
+Validator 7:
+  - is_censoring: False
+Validator 8:
+  - is_censoring: False
+Validator 9:
+  - is_censoring: False

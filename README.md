@@ -2,9 +2,9 @@
 
 This repository contains the modeling and analysis code for my Master's thesis "Agent-based Modeling of Compliance-driven Censorship in Ethereum’s PBS Framework". It includes simulation scripts, validation analysis, sensitivity tests, and stability checks.
 
-## 🔧 Contents
+##  Contents
 
-### 📁 Simulation and Modeling Code
+###  Simulation and Modeling Code
 
 - **ethereum_censorship_base_optimization_0629_validation_submit.ipynb**  
   Core model script used to simulate the PBS architecture and output validation data.
@@ -12,7 +12,7 @@ This repository contains the modeling and analysis code for my Master's thesis "
 - **ethereum_censorship_base_optimization_0629_sensitivity_submit.ipynb**  
   Same model logic as the validation notebook, used to output data for sensitivity analysis experiments.
 
-### 📊 Validation Analysis
+###  Validation Analysis
 
 - **validation_0629_submit.ipynb**  
 - **validation_0629_additional_submit.ipynb**  
@@ -24,7 +24,7 @@ This repository contains the modeling and analysis code for my Master's thesis "
   - Node profit distribution  
   Results are visualized in plots.
 
-### 📈 Sensitivity Analysis Scripts
+###  Sensitivity Analysis Scripts
 
 - **sensitivity_analysis_0630_builder_relay_validator_censorship_ratio_submit.ipynb**  
 - **sensitivity_analysis_0630_only_strict_weak_builder_censorship_ratio_submit.ipynb**  
@@ -43,12 +43,12 @@ This repository contains the modeling and analysis code for my Master's thesis "
   - Network connectivity settings (e.g., average relays per builder/validator, connection probablity between nodes with aligned censorship tendency)  
   Each notebook calculates metrics and generates comparative plots.
 
-### 🧪 Stability Check
+###  Stability Check
 
 - **stability_0629_submit.ipynb**  
   Evaluates model robustness across different random seeds. It calculates key performance metrics under different runs and compares their variance to assess consistency.
 
-### 📂 Simulation Data
+###  Simulation Data
 
 - **simulation_results_validation_0606/**  
   Folder containing validation input data used by the analysis notebooks.  
@@ -56,7 +56,7 @@ This repository contains the modeling and analysis code for my Master's thesis "
 
 ---
 
-## 📎 Notes
+##  Notes
 
 - All scripts are written in Python using Jupyter Notebooks.
 - Required dependencies include `numpy`, `pandas`, `matplotlib`, and `seaborn`.
